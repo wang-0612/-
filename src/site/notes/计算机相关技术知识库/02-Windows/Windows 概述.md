@@ -1,13 +1,7 @@
 ---
-title: Windows 概述
-created: 2026-10-13
-tags:
-  - Windows/入门
-aliases:
-  - Windows 介绍
-  - 操作系统介绍
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/02-Windows/Windows 概述/","title":"Windows 概述","tags":["Windows/入门"],"dg-note-properties":{"title":"Windows 概述","created":"2026-10-13","tags":["Windows/入门"],"aliases":["Windows 介绍","操作系统介绍"]}}
 ---
+
 
 # Windows 概述
 
@@ -42,5 +36,5 @@ Windows 采用了**图形用户界面（GUI）**，比起从前 MS-DOS 需要输
 
 ## 相关笔记
 
-- [[Windows 基础命令]] — CMD 常用命令
-- [[Linux 入门概览]] — 对比学习：Linux 的起源
+- [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] — CMD 常用命令
+- [[计算机相关技术知识库/01-Linux/Linux 入门概览\|Linux 入门概览]] — 对比学习：Linux 的起源

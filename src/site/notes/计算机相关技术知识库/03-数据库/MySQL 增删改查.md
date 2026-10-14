@@ -1,14 +1,7 @@
 ---
-title: MySQL 增删改查
-created: 2026-10-13
-tags:
-  - 数据库/MySQL
-  - SQL/CRUD
-aliases:
-  - MySQL CRUD
-  - SQL 增删改查
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/03-数据库/MySQL 增删改查/","title":"MySQL 增删改查","tags":["数据库/MySQL","SQL/CRUD"],"dg-note-properties":{"title":"MySQL 增删改查","created":"2026-10-13","tags":["数据库/MySQL","SQL/CRUD"],"aliases":["MySQL CRUD","SQL 增删改查"]}}
 ---
+
 
 # MySQL 增删改查
 
@@ -90,5 +83,5 @@ select 字段 from 表1 union select 字段 from 表2;
 
 ## 相关笔记
 
-- [[MySQL 数据库与表操作]] — 建库建表
-- [[SQL 注入常用命令]] — 非授权环境下针对 SQL 的攻击面（仅限授权测试）
+- [[计算机相关技术知识库/03-数据库/MySQL 数据库与表操作\|MySQL 数据库与表操作]] — 建库建表
+- [[计算机相关技术知识库/03-数据库/SQL 注入常用命令\|SQL 注入常用命令]] — 非授权环境下针对 SQL 的攻击面（仅限授权测试）

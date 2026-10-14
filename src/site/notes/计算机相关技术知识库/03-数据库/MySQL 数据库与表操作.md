@@ -1,13 +1,7 @@
 ---
-title: MySQL 数据库与表操作
-created: 2026-10-13
-tags:
-  - 数据库/MySQL
-aliases:
-  - MySQL 库操作
-  - MySQL 表操作
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/03-数据库/MySQL 数据库与表操作/","title":"MySQL 数据库与表操作","tags":["数据库/MySQL"],"dg-note-properties":{"title":"MySQL 数据库与表操作","created":"2026-10-13","tags":["数据库/MySQL"],"aliases":["MySQL 库操作","MySQL 表操作"]}}
 ---
+
 
 # MySQL 数据库与表操作
 
@@ -77,5 +71,5 @@ graph LR
 
 ## 相关笔记
 
-- [[MySQL 入门与连接]] — 登录 MySQL
-- [[MySQL 增删改查]] — 数据的增删改查
+- [[计算机相关技术知识库/03-数据库/MySQL 入门与连接\|MySQL 入门与连接]] — 登录 MySQL
+- [[计算机相关技术知识库/03-数据库/MySQL 增删改查\|MySQL 增删改查]] — 数据的增删改查

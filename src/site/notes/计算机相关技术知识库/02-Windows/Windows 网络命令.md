@@ -1,14 +1,7 @@
 ---
-title: Windows 网络命令
-created: 2026-10-13
-tags:
-  - Windows/网络
-aliases:
-  - ipconfig
-  - netstat
-  - ping 命令
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/02-Windows/Windows 网络命令/","title":"Windows 网络命令","tags":["Windows/网络"],"dg-note-properties":{"title":"Windows 网络命令","created":"2026-10-13","tags":["Windows/网络"],"aliases":["ipconfig","netstat","ping 命令"]}}
 ---
+
 
 # Windows 网络命令
 
@@ -65,6 +58,6 @@ netstat -p tcp      # 查看 TCP 协议的使用情况
 
 ## 相关笔记
 
-- [[Windows 进程管理]] — tasklist / taskkill
-- [[Windows 命令符号与重定向]] — 管道符 `|` 的用法
-- [[数据库基础概念]] — 各类数据库默认端口（3306/1433/1521/27017）
+- [[计算机相关技术知识库/02-Windows/Windows 进程管理\|Windows 进程管理]] — tasklist / taskkill
+- [[计算机相关技术知识库/02-Windows/Windows 命令符号与重定向\|Windows 命令符号与重定向]] — 管道符 `|` 的用法
+- [[计算机相关技术知识库/03-数据库/数据库基础概念\|数据库基础概念]] — 各类数据库默认端口（3306/1433/1521/27017）

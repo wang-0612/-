@@ -1,14 +1,7 @@
 ---
-title: Windows 目录与文件操作
-created: 2026-10-13
-tags:
-  - Windows/命令
-  - Windows/文件
-aliases:
-  - Windows 目录操作
-  - Windows 文件操作
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/02-Windows/Windows 目录与文件操作/","title":"Windows 目录与文件操作","tags":["Windows/命令","Windows/文件"],"dg-note-properties":{"title":"Windows 目录与文件操作","created":"2026-10-13","tags":["Windows/命令","Windows/文件"],"aliases":["Windows 目录操作","Windows 文件操作"]}}
 ---
+
 
 # Windows 目录与文件操作
 
@@ -81,5 +74,5 @@ erase a.txt         # 删除文件，无需确认（del 的同义词）
 
 ## 相关笔记
 
-- [[Windows findstr 文本搜索]] — 在文件中搜索字符串
-- [[Linux 文件与目录操作]] — 对比学习：Linux 版本的文件操作
+- [[计算机相关技术知识库/02-Windows/Windows findstr 文本搜索\|Windows findstr 文本搜索]] — 在文件中搜索字符串
+- [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — 对比学习：Linux 版本的文件操作

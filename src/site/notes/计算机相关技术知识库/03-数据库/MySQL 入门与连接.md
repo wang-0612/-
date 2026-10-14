@@ -1,13 +1,7 @@
 ---
-title: MySQL 入门与连接
-created: 2026-10-13
-tags:
-  - 数据库/MySQL
-aliases:
-  - MySQL 简介
-  - MySQL 登录
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/03-数据库/MySQL 入门与连接/","title":"MySQL 入门与连接","tags":["数据库/MySQL"],"dg-note-properties":{"title":"MySQL 入门与连接","created":"2026-10-13","tags":["数据库/MySQL"],"aliases":["MySQL 简介","MySQL 登录"]}}
 ---
+
 
 # MySQL 入门与连接
 
@@ -64,6 +58,6 @@ mysql -u root -p -h 127.0.0.1 -P 3306               # 登录指定 IP、端口�
 
 ## 相关笔记
 
-- [[MySQL 数据库与表操作]] — 库与表的管理
-- [[MySQL 增删改查]] — 数据操作
-- [[常见数据库类型]] — 其他数据库对比
+- [[计算机相关技术知识库/03-数据库/MySQL 数据库与表操作\|MySQL 数据库与表操作]] — 库与表的管理
+- [[计算机相关技术知识库/03-数据库/MySQL 增删改查\|MySQL 增删改查]] — 数据操作
+- [[计算机相关技术知识库/03-数据库/常见数据库类型\|常见数据库类型]] — 其他数据库对比

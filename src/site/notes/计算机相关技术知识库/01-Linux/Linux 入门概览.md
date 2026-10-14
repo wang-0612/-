@@ -1,13 +1,7 @@
 ---
-title: Linux 入门概览
-created: 2026-10-13
-tags:
-  - Linux/入门
-aliases:
-  - Linux 介绍
-  - Linux 起源
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 入门概览/","title":"Linux 入门概览","tags":["Linux/入门"],"dg-note-properties":{"title":"Linux 入门概览","created":"2026-10-13","tags":["Linux/入门"],"aliases":["Linux 介绍","Linux 起源"]}}
 ---
+
 
 # Linux 入门概览
 
@@ -54,6 +48,6 @@ Linux 是一套**免费使用和自由传播的类 Unix 操作系统**，是一�
 
 ## 下一步
 
-- [[Linux 基础命令]] — 快捷键与系统信息
-- [[Linux 用户与用户组管理]] — 账户管理
-- [[Linux 文件与目录操作]] — 目录与文件
+- [[计算机相关技术知识库/01-Linux/Linux 基础命令\|Linux 基础命令]] — 快捷键与系统信息
+- [[计算机相关技术知识库/01-Linux/Linux 用户与用户组管理\|Linux 用户与用户组管理]] — 账户管理
+- [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — 目录与文件

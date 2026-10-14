@@ -1,14 +1,7 @@
 ---
-title: SQL 注入常用命令
-created: 2026-10-13
-tags:
-  - 数据库/SQL注入
-  - 安全
-aliases:
-  - SQL 注入函数
-  - SQLi 常用命令
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/03-数据库/SQL 注入常用命令/","title":"SQL 注入常用命令","tags":["数据库/SQL注入","安全"],"dg-note-properties":{"title":"SQL 注入常用命令","created":"2026-10-13","tags":["数据库/SQL注入","安全"],"aliases":["SQL 注入函数","SQLi 常用命令"]}}
 ---
+
 
 # SQL 注入常用命令
 
@@ -67,5 +60,5 @@ graph LR
 
 ## 相关笔记
 
-- [[MySQL 增删改查]] — 正常的 SQL 操作
-- [[常见数据库类型]] — MySQL 默认端口 3306
+- [[计算机相关技术知识库/03-数据库/MySQL 增删改查\|MySQL 增删改查]] — 正常的 SQL 操作
+- [[计算机相关技术知识库/03-数据库/常见数据库类型\|常见数据库类型]] — MySQL 默认端口 3306

@@ -1,13 +1,7 @@
 ---
-title: Windows 基础命令
-created: 2026-10-13
-tags:
-  - Windows/命令
-aliases:
-  - CMD 基础命令
-  - Windows 常用命令
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/02-Windows/Windows 基础命令/","title":"Windows 基础命令","tags":["Windows/命令"],"dg-note-properties":{"title":"Windows 基础命令","created":"2026-10-13","tags":["Windows/命令"],"aliases":["CMD 基础命令","Windows 常用命令"]}}
 ---
+
 
 # Windows 基础命令
 
@@ -71,6 +65,6 @@ chcp 65001      # 切换为 UTF-8
 
 ## 相关笔记
 
-- [[Windows 目录与文件操作]] — dir、cd、copy 等
-- [[Windows 进程管理]] — tasklist、taskkill
-- [[Windows 网络命令]] — ipconfig、ping、netstat
+- [[计算机相关技术知识库/02-Windows/Windows 目录与文件操作\|Windows 目录与文件操作]] — dir、cd、copy 等
+- [[计算机相关技术知识库/02-Windows/Windows 进程管理\|Windows 进程管理]] — tasklist、taskkill
+- [[计算机相关技术知识库/02-Windows/Windows 网络命令\|Windows 网络命令]] — ipconfig、ping、netstat

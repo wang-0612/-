@@ -1,12 +1,7 @@
 ---
-title: Linux 基础命令
-created: 2026-10-13
-tags:
-  - Linux/命令
-aliases:
-  - Linux 常用命令
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 基础命令/","title":"Linux 基础命令","tags":["Linux/命令"],"dg-note-properties":{"title":"Linux 基础命令","created":"2026-10-13","tags":["Linux/命令"],"aliases":["Linux 常用命令"]}}
 ---
+
 
 # Linux 基础命令
 
@@ -51,6 +46,6 @@ who             # 查看当前登录的用户
 
 ## 相关笔记
 
-- [[Linux 用户与用户组管理]] — 用户与组的增删改
-- [[Linux 进程与服务管理]] — systemctl 服务管理
-- [[Linux 命令速查]] — 全部命令一页速查
+- [[计算机相关技术知识库/01-Linux/Linux 用户与用户组管理\|Linux 用户与用户组管理]] — 用户与组的增删改
+- [[计算机相关技术知识库/01-Linux/Linux 进程与服务管理\|Linux 进程与服务管理]] — systemctl 服务管理
+- [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — 全部命令一页速查

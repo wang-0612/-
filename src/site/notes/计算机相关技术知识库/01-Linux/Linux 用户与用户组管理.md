@@ -1,13 +1,7 @@
 ---
-title: Linux 用户与用户组管理
-created: 2026-10-13
-tags:
-  - Linux/用户管理
-aliases:
-  - Linux 用户管理
-  - Linux 用户组管理
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 用户与用户组管理/","title":"Linux 用户与用户组管理","tags":["Linux/用户管理"],"dg-note-properties":{"title":"Linux 用户与用户组管理","created":"2026-10-13","tags":["Linux/用户管理"],"aliases":["Linux 用户管理","Linux 用户组管理"]}}
 ---
+
 
 # Linux 用户与用户组管理
 
@@ -100,4 +94,4 @@ passwd -u tom     # 解锁 tom 的账号
 
 ## 相关笔记
 
-- [[Linux 权限与 sudo]] — su 切换用户、sudo 提权、配置文件字段详解
+- [[计算机相关技术知识库/01-Linux/Linux 权限与 sudo\|Linux 权限与 sudo]] — su 切换用户、sudo 提权、配置文件字段详解

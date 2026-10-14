@@ -1,13 +1,7 @@
 ---
-title: Linux 文件系统目录结构
-created: 2026-10-13
-tags:
-  - Linux/文件系统
-aliases:
-  - Linux 目录结构
-  - Linux 文件系统
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 文件系统目录结构/","title":"Linux 文件系统目录结构","tags":["Linux/文件系统"],"dg-note-properties":{"title":"Linux 文件系统目录结构","created":"2026-10-13","tags":["Linux/文件系统"],"aliases":["Linux 目录结构","Linux 文件系统"]}}
 ---
+
 
 # Linux 文件系统目录结构
 
@@ -47,5 +41,5 @@ Linux 文件系统是**树形结构**，最顶层是根目录 `/`，所有目录
 
 ## 相关笔记
 
-- [[Linux 文件与目录操作]] — ls / mkdir / cp / rm / mv
-- [[Linux 权限与 sudo]] — /etc/passwd 等配置文件字段详解
+- [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — ls / mkdir / cp / rm / mv
+- [[计算机相关技术知识库/01-Linux/Linux 权限与 sudo\|Linux 权限与 sudo]] — /etc/passwd 等配置文件字段详解

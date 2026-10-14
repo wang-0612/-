@@ -1,13 +1,7 @@
 ---
-title: Linux vim 文本编辑
-created: 2026-10-13
-tags:
-  - Linux/编辑器
-aliases:
-  - vim 教程
-  - vi 编辑器
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux vim 文本编辑/","title":"Linux vim 文本编辑","tags":["Linux/编辑器"],"dg-note-properties":{"title":"Linux vim 文本编辑","created":"2026-10-13","tags":["Linux/编辑器"],"aliases":["vim 教程","vi 编辑器"]}}
 ---
+
 
 # Linux vim 文本编辑
 
@@ -59,4 +53,4 @@ graph LR
 
 ## 相关笔记
 
-- [[Linux 文件与目录操作]] — touch / vi / vim 创建文件
+- [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — touch / vi / vim 创建文件

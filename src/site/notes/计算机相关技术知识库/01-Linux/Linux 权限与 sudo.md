@@ -1,13 +1,7 @@
 ---
-title: Linux 权限与 sudo
-created: 2026-10-13
-tags:
-  - Linux/权限
-aliases:
-  - Linux sudo
-  - Linux root
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 权限与 sudo/","title":"Linux 权限与 sudo","tags":["Linux/权限"],"dg-note-properties":{"title":"Linux 权限与 sudo","created":"2026-10-13","tags":["Linux/权限"],"aliases":["Linux sudo","Linux root"]}}
 ---
+
 
 # Linux 权限与 sudo
 
@@ -66,5 +60,5 @@ sudo 命令        # 以系统管理者（root）的身份执行指令
 
 ## 相关笔记
 
-- [[Linux 用户与用户组管理]] — 用户与组的增删改
-- [[Linux 文件权限]] — 文件级的 rwx 权限控制
+- [[计算机相关技术知识库/01-Linux/Linux 用户与用户组管理\|Linux 用户与用户组管理]] — 用户与组的增删改
+- [[计算机相关技术知识库/01-Linux/Linux 文件权限\|Linux 文件权限]] — 文件级的 rwx 权限控制

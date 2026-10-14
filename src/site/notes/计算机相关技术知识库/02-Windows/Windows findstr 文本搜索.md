@@ -1,12 +1,7 @@
 ---
-title: Windows findstr 文本搜索
-created: 2026-10-13
-tags:
-  - Windows/命令
-aliases:
-  - findstr 命令
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/02-Windows/Windows findstr 文本搜索/","title":"Windows findstr 文本搜索","tags":["Windows/命令"],"dg-note-properties":{"title":"Windows findstr 文本搜索","created":"2026-10-13","tags":["Windows/命令"],"aliases":["findstr 命令"]}}
 ---
+
 
 # Windows findstr 文本搜索
 
@@ -46,5 +41,5 @@ findstr /s /n "password" C:\conf\* # 递归搜索目录下所有文件
 
 ## 相关笔记
 
-- [[Windows 命令符号与重定向]] — 配合管道 `|` 使用效果更佳
-- [[Windows 基础命令]] — 其他基础命令
+- [[计算机相关技术知识库/02-Windows/Windows 命令符号与重定向\|Windows 命令符号与重定向]] — 配合管道 `|` 使用效果更佳
+- [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] — 其他基础命令

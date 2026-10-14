@@ -1,14 +1,7 @@
 ---
-title: Windows 命令速查
-created: 2026-10-13
-tags:
-  - 速查
-  - Windows/命令
-aliases:
-  - CMD cheatsheet
-  - Windows cheatsheet
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/04-速查表/Windows 命令速查/","title":"Windows 命令速查","tags":["速查","Windows/命令"],"dg-note-properties":{"title":"Windows 命令速查","created":"2026-10-13","tags":["速查","Windows/命令"],"aliases":["CMD cheatsheet","Windows cheatsheet"]}}
 ---
+
 
 # Windows 命令速查
 
@@ -98,6 +91,6 @@ dg-publish: true
 
 ## 相关笔记
 
-- [[Windows 概述]] · [[Windows 基础命令]] · [[Windows 目录与文件操作]]
-- [[Windows findstr 文本搜索]] · [[Windows 进程管理]] · [[Windows 网络命令]]
-- [[Windows 命令符号与重定向]]
+- [[计算机相关技术知识库/02-Windows/Windows 概述\|Windows 概述]] · [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] · [[计算机相关技术知识库/02-Windows/Windows 目录与文件操作\|Windows 目录与文件操作]]
+- [[计算机相关技术知识库/02-Windows/Windows findstr 文本搜索\|Windows findstr 文本搜索]] · [[计算机相关技术知识库/02-Windows/Windows 进程管理\|Windows 进程管理]] · [[计算机相关技术知识库/02-Windows/Windows 网络命令\|Windows 网络命令]]
+- [[计算机相关技术知识库/02-Windows/Windows 命令符号与重定向\|Windows 命令符号与重定向]]

@@ -1,13 +1,7 @@
 ---
-title: Linux 文件权限
-created: 2026-10-13
-tags:
-  - Linux/权限
-aliases:
-  - Linux chmod
-  - rwx 权限
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 文件权限/","title":"Linux 文件权限","tags":["Linux/权限"],"dg-note-properties":{"title":"Linux 文件权限","created":"2026-10-13","tags":["Linux/权限"],"aliases":["Linux chmod","rwx 权限"]}}
 ---
+
 
 # Linux 文件权限
 
@@ -78,5 +72,5 @@ chmod 755 test.sh        # 让脚本文件可以执行
 
 ## 相关笔记
 
-- [[Linux 文件与目录操作]] — 文件与目录的增删改
-- [[Linux 权限与 sudo]] — 用户、sudo 与配置文件
+- [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — 文件与目录的增删改
+- [[计算机相关技术知识库/01-Linux/Linux 权限与 sudo\|Linux 权限与 sudo]] — 用户、sudo 与配置文件

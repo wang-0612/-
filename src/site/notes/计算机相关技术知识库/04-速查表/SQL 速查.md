@@ -1,14 +1,7 @@
 ---
-title: SQL 速查
-created: 2026-10-13
-tags:
-  - 速查
-  - 数据库/SQL
-aliases:
-  - SQL cheatsheet
-  - MySQL 速查
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/04-速查表/SQL 速查/","title":"SQL 速查","tags":["速查","数据库/SQL"],"dg-note-properties":{"title":"SQL 速查","created":"2026-10-13","tags":["速查","数据库/SQL"],"aliases":["SQL cheatsheet","MySQL 速查"]}}
 ---
+
 
 # SQL 速查
 
@@ -96,5 +89,5 @@ select length('admin');                 -- 长度 → 5
 
 ## 相关笔记
 
-- [[MySQL 入门与连接]] · [[MySQL 数据库与表操作]] · [[MySQL 增删改查]]
-- [[SQL 注入常用命令]] · [[常见数据库类型]] · [[数据库基础概念]]
+- [[计算机相关技术知识库/03-数据库/MySQL 入门与连接\|MySQL 入门与连接]] · [[计算机相关技术知识库/03-数据库/MySQL 数据库与表操作\|MySQL 数据库与表操作]] · [[计算机相关技术知识库/03-数据库/MySQL 增删改查\|MySQL 增删改查]]
+- [[计算机相关技术知识库/03-数据库/SQL 注入常用命令\|SQL 注入常用命令]] · [[计算机相关技术知识库/03-数据库/常见数据库类型\|常见数据库类型]] · [[计算机相关技术知识库/03-数据库/数据库基础概念\|数据库基础概念]]

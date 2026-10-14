@@ -1,14 +1,7 @@
 ---
-title: Linux 进程与服务管理
-created: 2026-10-13
-tags:
-  - Linux/进程
-aliases:
-  - Linux 进程管理
-  - Linux 服务管理
-  - systemctl
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 进程与服务管理/","title":"Linux 进程与服务管理","tags":["Linux/进程"],"dg-note-properties":{"title":"Linux 进程与服务管理","created":"2026-10-13","tags":["Linux/进程"],"aliases":["Linux 进程管理","Linux 服务管理","systemctl"]}}
 ---
+
 
 # Linux 进程与服务管理
 
@@ -83,5 +76,5 @@ systemctl status 服务名      # 查看当前服务状态
 
 ## 相关笔记
 
-- [[Linux 基础命令]] — reboot、uname 等系统命令
-- [[Linux 命令速查]] — 命令汇总
+- [[计算机相关技术知识库/01-Linux/Linux 基础命令\|Linux 基础命令]] — reboot、uname 等系统命令
+- [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — 命令汇总

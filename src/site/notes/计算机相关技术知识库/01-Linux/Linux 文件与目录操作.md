@@ -1,14 +1,7 @@
 ---
-title: Linux 文件与目录操作
-created: 2026-10-13
-tags:
-  - Linux/命令
-  - Linux/文件
-aliases:
-  - Linux 文件管理
-  - Linux 目录操作
-dg-publish: true
+{"dg-publish":true,"permalink":"/计算机相关技术知识库/01-Linux/Linux 文件与目录操作/","title":"Linux 文件与目录操作","tags":["Linux/命令","Linux/文件"],"dg-note-properties":{"title":"Linux 文件与目录操作","created":"2026-10-13","tags":["Linux/命令","Linux/文件"],"aliases":["Linux 文件管理","Linux 目录操作"]}}
 ---
+
 
 # Linux 文件与目录操作
 
@@ -141,6 +134,6 @@ less abc.txt
 
 ## 相关笔记
 
-- [[Linux 文件系统目录结构]] — 各目录都是干什么的
-- [[Linux 文件权限]] — chmod 修改权限
-- [[Linux vim 文本编辑]] — vim 三种工作模式
+- [[计算机相关技术知识库/01-Linux/Linux 文件系统目录结构\|Linux 文件系统目录结构]] — 各目录都是干什么的
+- [[计算机相关技术知识库/01-Linux/Linux 文件权限\|Linux 文件权限]] — chmod 修改权限
+- [[计算机相关技术知识库/01-Linux/Linux vim 文本编辑\|Linux vim 文本编辑]] — vim 三种工作模式
