@@ -1,0 +1,20 @@
+{
+	"nodes":[
+		{"id":"b100000000000001","type":"text","x":740,"y":0,"width":640,"height":260,"color":"5","text":"# 计算机相关技术知识库\n\n三大方向 · 22 篇主题笔记 · 3 张速查表 · 4 份 PDF 原文\n\n点击下方分区中的笔记名即可跳转\n\n**入口** [[首页]] · [[维护指南]]"},
+		{"id":"b100000000000010","type":"group","x":60,"y":380,"width":440,"height":560,"label":"Linux · 9 篇","color":"4"},
+		{"id":"b100000000000011","type":"group","x":580,"y":380,"width":440,"height":560,"label":"Windows · 7 篇","color":"1"},
+		{"id":"b100000000000012","type":"group","x":1100,"y":380,"width":440,"height":560,"label":"数据库 · 6 篇","color":"6"},
+		{"id":"b100000000000013","type":"group","x":1620,"y":380,"width":440,"height":560,"label":"速查与参考 · 6 项","color":"3"},
+		{"id":"b100000000000020","type":"text","x":90,"y":420,"width":380,"height":480,"text":"- [[Linux 入门概览]]\n- [[Linux 基础命令]]\n- [[Linux 用户与用户组管理]]\n- [[Linux 权限与 sudo]]\n- [[Linux 文件与目录操作]]\n- [[Linux 文件系统目录结构]]\n- [[Linux 文件权限]]\n- [[Linux vim 文本编辑]]\n- [[Linux 进程与服务管理]]"},
+		{"id":"b100000000000021","type":"text","x":610,"y":420,"width":380,"height":480,"text":"- [[Windows 概述]]\n- [[Windows 基础命令]]\n- [[Windows 目录与文件操作]]\n- [[Windows findstr 文本搜索]]\n- [[Windows 进程管理]]\n- [[Windows 网络命令]]\n- [[Windows 命令符号与重定向]]"},
+		{"id":"b100000000000022","type":"text","x":1130,"y":420,"width":380,"height":480,"text":"- [[数据库基础概念]]\n- [[常见数据库类型]]\n- [[MySQL 入门与连接]]\n- [[MySQL 数据库与表操作]]\n- [[MySQL 增删改查]]\n- [[SQL 注入常用命令]]"},
+		{"id":"b100000000000023","type":"text","x":1650,"y":420,"width":380,"height":480,"text":"- [[Linux 命令速查]]\n- [[Windows 命令速查]]\n- [[SQL 速查]]\n\n---\n\n- [[参考资料索引]]\n- [[知识库目录]]\n- [[维护指南]]"},
+		{"id":"b100000000000030","type":"text","x":60,"y":1000,"width":2000,"height":90,"color":"2","text":"**扩容方式** 新增主题 → 复制任意一个分区（组 + 文本框）向右扩展；主题内新增笔记 → 双击对应文本框加一行。步骤详见 [[维护指南]]"}
+	],
+	"edges":[
+		{"id":"b1000000000000e1","fromNode":"b100000000000001","fromSide":"bottom","toNode":"b100000000000010","toSide":"top","color":"4"},
+		{"id":"b1000000000000e2","fromNode":"b100000000000001","fromSide":"bottom","toNode":"b100000000000011","toSide":"top","color":"1"},
+		{"id":"b1000000000000e3","fromNode":"b100000000000001","fromSide":"bottom","toNode":"b100000000000012","toSide":"top","color":"6"},
+		{"id":"b1000000000000e4","fromNode":"b100000000000001","fromSide":"bottom","toNode":"b100000000000013","toSide":"top","color":"3"}
+	]
+}
