@@ -134,6 +134,9 @@ less abc.txt
 
 ## 相关笔记
 
+- [[计算机相关技术知识库/01-Linux/Linux 入门概览\|Linux 入门概览]] — 起点：发行版选择与 SSH 远程连接
 - [[计算机相关技术知识库/01-Linux/Linux 文件系统目录结构\|Linux 文件系统目录结构]] — 各目录都是干什么的
 - [[计算机相关技术知识库/01-Linux/Linux 文件权限\|Linux 文件权限]] — chmod 修改权限
 - [[计算机相关技术知识库/01-Linux/Linux vim 文本编辑\|Linux vim 文本编辑]] — vim 三种工作模式
+- [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — 文件操作命令一页速查
+- [[计算机相关技术知识库/02-Windows/Windows 目录与文件操作\|Windows 目录与文件操作]] — 对比学习：Windows 的 dir / copy / move

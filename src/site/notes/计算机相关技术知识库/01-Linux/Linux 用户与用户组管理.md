@@ -94,4 +94,7 @@ passwd -u tom     # 解锁 tom 的账号
 
 ## 相关笔记
 
+- [[计算机相关技术知识库/01-Linux/Linux 入门概览\|Linux 入门概览]] — 起点：发行版选择与 SSH 远程连接
+- [[计算机相关技术知识库/01-Linux/Linux 基础命令\|Linux 基础命令]] — whoami / who 查看当前登录用户
 - [[计算机相关技术知识库/01-Linux/Linux 权限与 sudo\|Linux 权限与 sudo]] — su 切换用户、sudo 提权、配置文件字段详解
+- [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — 用户与组命令一页速查

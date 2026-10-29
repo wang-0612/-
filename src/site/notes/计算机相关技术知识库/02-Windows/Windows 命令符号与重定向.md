@@ -71,3 +71,4 @@ netstat -ano | findstr 80 && netstat -ano | findstr 443
 - [[计算机相关技术知识库/02-Windows/Windows findstr 文本搜索\|Windows findstr 文本搜索]] — findstr 参数详解
 - [[计算机相关技术知识库/02-Windows/Windows 网络命令\|Windows 网络命令]] — netstat 详解
 - [[计算机相关技术知识库/01-Linux/Linux 进程与服务管理\|Linux 进程与服务管理]] — 对比学习：Linux 的管道与重定向类似
+- [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — 特殊符号一页速查

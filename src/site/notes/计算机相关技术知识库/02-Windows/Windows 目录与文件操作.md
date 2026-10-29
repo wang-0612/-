@@ -74,5 +74,7 @@ erase a.txt         # 删除文件，无需确认（del 的同义词）
 
 ## 相关笔记
 
+- [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] — cls、whoami、systeminfo 等
 - [[计算机相关技术知识库/02-Windows/Windows findstr 文本搜索\|Windows findstr 文本搜索]] — 在文件中搜索字符串
 - [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — 对比学习：Linux 版本的文件操作
+- [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — 目录与文件命令一页速查

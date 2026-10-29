@@ -65,6 +65,9 @@ chcp 65001      # 切换为 UTF-8
 
 ## 相关笔记
 
+- [[计算机相关技术知识库/02-Windows/Windows 概述\|Windows 概述]] — 起点：操作系统概念与 Windows 发展史
 - [[计算机相关技术知识库/02-Windows/Windows 目录与文件操作\|Windows 目录与文件操作]] — dir、cd、copy 等
+- [[计算机相关技术知识库/02-Windows/Windows findstr 文本搜索\|Windows findstr 文本搜索]] — 在文件中搜索字符串
 - [[计算机相关技术知识库/02-Windows/Windows 进程管理\|Windows 进程管理]] — tasklist、taskkill
 - [[计算机相关技术知识库/02-Windows/Windows 网络命令\|Windows 网络命令]] — ipconfig、ping、netstat
+- [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — 全部 Windows 命令一页速查

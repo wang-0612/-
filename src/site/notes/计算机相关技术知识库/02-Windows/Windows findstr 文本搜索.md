@@ -43,3 +43,5 @@ findstr /s /n "password" C:\conf\* # 递归搜索目录下所有文件
 
 - [[计算机相关技术知识库/02-Windows/Windows 命令符号与重定向\|Windows 命令符号与重定向]] — 配合管道 `|` 使用效果更佳
 - [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] — 其他基础命令
+- [[计算机相关技术知识库/02-Windows/Windows 目录与文件操作\|Windows 目录与文件操作]] — dir / type 查看与筛选文件
+- [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — findstr 参数一页速查

@@ -38,3 +38,4 @@ Windows 采用了**图形用户界面（GUI）**，比起从前 MS-DOS 需要输
 
 - [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] — CMD 常用命令
 - [[计算机相关技术知识库/01-Linux/Linux 入门概览\|Linux 入门概览]] — 对比学习：Linux 的起源
+- [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — 全部 Windows 命令一页速查

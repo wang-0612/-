@@ -78,3 +78,5 @@ systemctl status 服务名      # 查看当前服务状态
 
 - [[计算机相关技术知识库/01-Linux/Linux 基础命令\|Linux 基础命令]] — reboot、uname 等系统命令
 - [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — 命令汇总
+- [[计算机相关技术知识库/02-Windows/Windows 进程管理\|Windows 进程管理]] — 对比学习：tasklist / taskkill
+- [[计算机相关技术知识库/02-Windows/Windows 命令符号与重定向\|Windows 命令符号与重定向]] — 对比学习：Windows 的管道 `|` 与重定向

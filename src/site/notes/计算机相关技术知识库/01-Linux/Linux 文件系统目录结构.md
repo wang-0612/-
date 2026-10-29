@@ -43,3 +43,4 @@ Linux 文件系统是**树形结构**，最顶层是根目录 `/`，所有目录
 
 - [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — ls / mkdir / cp / rm / mv
 - [[计算机相关技术知识库/01-Linux/Linux 权限与 sudo\|Linux 权限与 sudo]] — /etc/passwd 等配置文件字段详解
+- [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — 目录结构相关命令一页速查

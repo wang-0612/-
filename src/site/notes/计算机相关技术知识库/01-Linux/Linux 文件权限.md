@@ -74,3 +74,4 @@ chmod 755 test.sh        # 让脚本文件可以执行
 
 - [[计算机相关技术知识库/01-Linux/Linux 文件与目录操作\|Linux 文件与目录操作]] — 文件与目录的增删改
 - [[计算机相关技术知识库/01-Linux/Linux 权限与 sudo\|Linux 权限与 sudo]] — 用户、sudo 与配置文件
+- [[计算机相关技术知识库/04-速查表/Linux 命令速查\|Linux 命令速查]] — chmod 与权限相关命令速查

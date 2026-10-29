@@ -52,5 +52,7 @@ graph LR
 
 ## 相关笔记
 
+- [[计算机相关技术知识库/02-Windows/Windows 基础命令\|Windows 基础命令]] — 起点：CMD 常用基础命令
 - [[计算机相关技术知识库/02-Windows/Windows 网络命令\|Windows 网络命令]] — netstat 查看端口与进程 PID 的对应关系
 - [[计算机相关技术知识库/01-Linux/Linux 进程与服务管理\|Linux 进程与服务管理]] — 对比学习：Linux 进程管理
+- [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — 进程命令一页速查
