@@ -40,13 +40,17 @@ drop table table_name;                    # 删除表
 
 ## 自增属性
 
-```bash
-unsigned auto_increment;
+```sql
+-- 列属性必须写在 CREATE TABLE 的列定义里，不能单独执行
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY
 ```
 
 - `auto_increment`：定义列为**自增**属性，数值自动加 1
 - `unsigned`：无符号（非负数）
 - 一般用于**主键**（id）
+
+> [!note] 不能单独执行
+> `UNSIGNED` 和 `AUTO_INCREMENT` 是**列属性**，必须跟在列名和数据类型之后、写在 `CREATE TABLE` / `ALTER TABLE` 的列定义中；单独写 `unsigned auto_increment;` 会报语法错误。
 
 > [!example] 典型主键定义
 > ```sql
@@ -56,6 +60,58 @@ unsigned auto_increment;
 >     age int
 > );
 > ```
+
+## 实战：jingsai 库与 yuangong 表
+
+从建库到查询走一遍完整流程：
+
+```sql
+-- 1. 创建数据库并进入
+create database jingsai;
+use jingsai;
+
+-- 2. 创建员工表
+create table yuangong (
+    id int primary key auto_increment,
+    name varchar(20),
+    age int,
+    job varchar(20),
+    salary int
+);
+
+-- 3. 插入三条记录（id 自增，插入时省略）
+insert into yuangong (name, age, job, salary) values
+    ('张三', 22, '程序员', 8500),
+    ('李四', 25, '产品经理', 5000),
+    ('王五', 20, '实习生', 4200);
+
+-- 4. 查询全部记录
+select * from yuangong;
+
+-- 5. 查看表结构
+desc yuangong;
+```
+
+执行 `select * from yuangong;` 后应看到：
+
+| id | name | age | job | salary |
+|----|------|-----|-----|--------|
+| 1 | 张三 | 22 | 程序员 | 8500 |
+| 2 | 李四 | 25 | 产品经理 | 5000 |
+| 3 | 王五 | 20 | 实习生 | 4200 |
+
+### 语句说明
+
+- **`id int primary key auto_increment`**：`id` 是主键且自增，插入时**省略不写**，数据库自动从 1 开始依次赋值。因此 `insert` 的列清单里只有 `name, age, job, salary` 四列。
+- **`varchar(20)`**：可变长字符串，括号里的 20 表示**最多 20 个字符**（MySQL 5.0.3 起按字符计，不是字节），姓名、职位这类短文本足够用。
+- **`desc yuangong;`**：`desc` 是 describe 的缩写，用于**查看表结构**——字段名、类型、是否允许 NULL、键、默认值、Extra（自增会显示在这里）。
+- **`select * from yuangong;`**：`*` 代表所有列，即**查询整张表**的全部数据。
+
+> [!tip] 字符串必须加单引号
+> `'张三'`、`'程序员'` 是字符串，必须用**单引号**包裹；数字（22、8500）直接写。漏掉引号时 MySQL 会把中文当成列名而报错。
+
+> [!note] 多行插入
+> 一条 `insert` 后面可以跟多组 `(...)`，用逗号分隔，一次插入多行，比逐条执行效率更高。
 
 ## 操作顺序示意
 

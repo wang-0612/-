@@ -12,6 +12,16 @@ ipconfig            # 查看 IP 信息
 ipconfig /all       # 查看详细 IP 信息（含 MAC、DNS、DHCP 等）
 ```
 
+> [!example] 查看本机 IP
+> 在 `ipconfig` 输出中找到**正在使用的适配器**（有线为「以太网」，无线为「WLAN」），看「IPv4 地址」一行，例如 `192.168.31.141`。
+>
+> - 有多个适配器时，显示「媒体状态 . . . : 媒体已断开连接」的不是当前在用的，跳过即可。
+> - `ipconfig /all` 还能查看 **MAC 地址**（物理地址）、**DNS 服务器**、**DHCP** 是否启用等详细信息。
+>
+> ```bash
+> ipconfig | findstr IPv4      # 只筛选 IPv4 地址行
+> ```
+
 ## ping：测试连通性
 
 ```bash
@@ -32,9 +42,14 @@ netstat             # 查看网络连接情况
 netstat -a          # 查看开启了哪些端口
 netstat -ao         # 查看开启了哪些端口，并显示进程 PID
 netstat -n          # 查看端口的网络连接情况（以数字形式显示）
-netstat -v          # 查看正在进行的工作
 netstat -p tcp      # 查看 TCP 协议的使用情况
 ```
+
+> [!example] 只看监听中的端口
+> ```bash
+> netstat -ano | findstr LISTENING
+> ```
+> `LISTENING` 表示该端口正在监听、等待连接；`-ano` 同时显示地址、端口和对应的进程 PID。
 
 ### netstat 参数详解
 
@@ -44,7 +59,6 @@ netstat -p tcp      # 查看 TCP 协议的使用情况
 | `-n` | numeric | 以数字形式显示 IP/端口，**不解析域名**（加速输出） |
 | `-o` | owners | 显示每个连接对应的**进程 PID**（排查占用端口的核心参数） |
 | `-p` | protocol | 按协议过滤（`-p tcp` / `-p udp`） |
-| `-v` | verbose | 详细模式，输出扩展统计信息 |
 | `-r` | route | 显示路由表 |
 | `-s` | statistics | 显示各协议的统计信息（TCP/UDP/ICMP 等） |
 
@@ -63,3 +77,4 @@ netstat -p tcp      # 查看 TCP 协议的使用情况
 - [[计算机相关技术知识库/02-Windows/Windows 命令符号与重定向\|Windows 命令符号与重定向]] — 管道符 `|` 的用法
 - [[计算机相关技术知识库/03-数据库/数据库基础概念\|数据库基础概念]] — 各类数据库默认端口（3306/1433/1521/27017）
 - [[计算机相关技术知识库/04-速查表/Windows 命令速查\|Windows 命令速查]] — 网络命令一页速查
+- [[计算机相关技术知识库/04-速查表/网络基础速查\|网络基础速查]] — 网络基础与端口速查

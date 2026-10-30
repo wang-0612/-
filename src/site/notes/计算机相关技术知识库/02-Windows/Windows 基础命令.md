@@ -31,6 +31,18 @@ date                # 显示日期
 echo Hello world    # 输出内容
 ```
 
+> [!example] whoami 与 hostname 的输出
+> ```bash
+> C:\Users\ASUS>whoami
+> laptop-pcf6tlft\asus
+> C:\Users\ASUS>hostname
+> LAPTOP-PCF6TLFT
+> ```
+>
+> - `whoami` 输出「主机名\用户名」（本地账户），用于确认**当前登录账户**。
+> - `hostname` 只输出**主机名**，用于确认**本机主机名**。
+> - 两者显示的主机名大小写可能不同（如 `laptop-pcf6tlft` 与 `LAPTOP-PCF6TLFT`），Windows 主机名不区分大小写。
+
 ## Windows 内置账户一览
 
 | 账户名 | 账户类型 | 默认状态 |
@@ -39,7 +51,7 @@ echo Hello world    # 输出内容
 | Administrator | 内置超级管理员账户 | 默认禁用（Win10/11） |
 | DefaultAccount | 系统内置默认账户 | 默认禁用 |
 | Guest | 来宾账户 | 默认禁用 |
-| WDAGUtilityAccount | Windows Defender 应用防护账户 | 系统专用，默认启用 |
+| WDAGUtilityAccount | Windows Defender 应用防护账户 | 系统专用，默认禁用（启用应用防护/沙盒时使用） |
 | WsiAccount | 系统服务/第三方工具账户 | 按需启用 |
 
 > [!note] Administrator

@@ -55,6 +55,29 @@ userdel 选项 用户名
 userdel -r tom2        # 删除用户 tom2 及它的家目录
 ```
 
+## 实战：创建、切换、删除 test01
+
+```bash
+sudo useradd -m test01        # 创建用户 test01，并创建家目录
+sudo passwd test01            # 为 test01 设置密码
+su - test01                   # 切换到 test01（加载其环境与家目录）
+whoami                        # 确认当前用户，应输出 test01
+exit                          # 退回原来的用户
+sudo userdel -r test01        # 删除用户，同时删除家目录和邮件池
+grep test01 /etc/passwd       # 检查是否删除干净
+```
+
+| 命令 / 选项 | 说明 |
+|-------------|------|
+| `useradd -m` | 创建家目录；部分发行版（如 Debian/Ubuntu）的 `useradd` 默认**不**创建家目录，必须加 `-m` |
+| `su - test01` | 带 `-` 相当于完整登录：切换到 test01 的家目录，并加载其环境变量与配置文件 |
+| `su test01` | 不带 `-`：只切换身份，保留当前工作目录和环境变量 |
+| `userdel -r` | 删除用户的同时删除其家目录和邮件池（mail spool） |
+| `grep test01 /etc/passwd` | 无输出说明用户记录已删除 |
+
+> [!note] /etc/passwd 里没有真实密码
+> `/etc/passwd` 对所有用户可读，密码字段只是占位符 `x`；真正的密码哈希保存在只有 root 可读的 `/etc/shadow` 中。
+
 ## 用户组管理
 
 ```bash
@@ -73,13 +96,14 @@ passwd 选项 用户名
 | 选项 | 作用 |
 |------|------|
 | `-d` | 清空用户密码（无密码登录） |
-| `-f` | 强制用户下次登录必须修改密码 |
+| `-e` / `--expire` | 使密码立即过期，强制用户下次登录修改密码 |
 | `-l` | 锁定用户（禁止登录，但不删用户、不删文件） |
 | `-u` | 解锁用户（恢复登录权限） |
 
 ```bash
 passwd tom        # 修改指定用户 tom 的密码
 passwd -d tom     # 清空 tom 的密码（空口令）
+passwd -e tom     # 让密码立即过期，下次登录必须改密
 passwd -l tom     # 锁定 tom 的账号
 passwd -u tom     # 解锁 tom 的账号
 ```
